@@ -160,7 +160,7 @@ export default function LoanAdvisorDashboard() {
                   </div>
                   <div className="space-y-2">
                     <Label>Gender</Label>
-                    <Select value={formData.person_gender} onValueChange={(v) => handleSelectChange("person_gender", v)}>
+                    <Select value={formData.person_gender} onValueChange={(v: string) => handleSelectChange("person_gender", v)}>
                       <SelectTrigger className="bg-slate-50">
                         <SelectValue placeholder="Gender" />
                       </SelectTrigger>
@@ -174,7 +174,7 @@ export default function LoanAdvisorDashboard() {
 
                 <div className="space-y-2">
                   <Label>Education Level</Label>
-                  <Select value={formData.person_education} onValueChange={(v) => handleSelectChange("person_education", v)}>
+                  <Select value={formData.person_education} onValueChange={(v: string) => handleSelectChange("person_education", v)}>
                     <SelectTrigger className="bg-slate-50">
                       <SelectValue placeholder="Education" />
                     </SelectTrigger>
@@ -202,7 +202,7 @@ export default function LoanAdvisorDashboard() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label>Home Ownership</Label>
-                    <Select value={formData.person_home_ownership} onValueChange={(v) => handleSelectChange("person_home_ownership", v)}>
+                    <Select value={formData.person_home_ownership} onValueChange={(v: string) => handleSelectChange("person_home_ownership", v)}>
                       <SelectTrigger className="bg-slate-50">
                         <SelectValue placeholder="Ownership" />
                       </SelectTrigger>
@@ -216,7 +216,7 @@ export default function LoanAdvisorDashboard() {
                   </div>
                   <div className="space-y-2">
                     <Label>Loan Intent</Label>
-                    <Select value={formData.loan_intent} onValueChange={(v) => handleSelectChange("loan_intent", v)}>
+                    <Select value={formData.loan_intent} onValueChange={(v: string) => handleSelectChange("loan_intent", v)}>
                       <SelectTrigger className="bg-slate-50">
                         <SelectValue placeholder="Intent" />
                       </SelectTrigger>
@@ -245,7 +245,7 @@ export default function LoanAdvisorDashboard() {
 
                 <div className="space-y-2">
                   <Label>Previous Default on File?</Label>
-                  <Select value={formData.previous_loan_defaults_on_file} onValueChange={(v) => handleSelectChange("previous_loan_defaults_on_file", v)}>
+                  <Select value={formData.previous_loan_defaults_on_file} onValueChange={(v: string) => handleSelectChange("previous_loan_defaults_on_file", v)}>
                     <SelectTrigger className="bg-slate-50">
                       <SelectValue placeholder="Select" />
                     </SelectTrigger>
