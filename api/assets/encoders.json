@@ -1,0 +1,1 @@
+{"person_gender": ["female", "male"], "person_education": ["Associate", "Bachelor", "Doctorate", "High School", "Master"], "person_home_ownership": ["MORTGAGE", "OTHER", "OWN", "RENT"], "loan_intent": ["DEBTCONSOLIDATION", "EDUCATION", "HOMEIMPROVEMENT", "MEDICAL", "PERSONAL", "VENTURE"], "previous_loan_defaults_on_file": ["No", "Yes"]}
