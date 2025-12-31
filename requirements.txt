@@ -1,9 +1,7 @@
 xgboost==2.0.3
 shap==0.49.1
 scikit-learn
-pandas
 joblib
 flask
 flask-cors
 numpy
-
